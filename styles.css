@@ -1,0 +1,71 @@
+body{
+  margin:0;
+  font-family: Verdana, sans-serif;
+  background-image:url("https://cdn.pixabay.com/photo/2023/05/16/14/17/sail-boat-7997799_640.jpg");
+  background-repeat: no-repeat; 
+  background-size: cover;
+  color:white;
+}
+
+h1{
+  font-weight:400;
+  margin:20px auto;
+  text-align:center;
+}
+
+p{
+  margin:10px auto 30px;
+  text-align:center;
+  max-width:60%;
+  font-style:italic;
+}
+
+form{
+  background-color:rgb(50, 30, 30,0.9);
+  padding:50px;
+  margin:10px 15%;
+}
+
+input[type="text"], input[type="number"], input[type="email"]{
+  display:block;
+  width:100%;
+  padding:10px;
+  font-size:1rem;
+  border-radius:5px;
+}
+label{
+  display:block;
+  margin:20px 0 10px;
+}
+select{
+  display:block;
+  margin:20px 0;
+  width:100%;
+  font-size:1rem;
+  padding:10px;
+}
+
+input[type="checkbox"], input[type="radio"]{
+-ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+  transform: scale(1.5);
+  margin-right:10px;
+}
+
+textarea{
+  position:relative;
+  display:block;
+  min-width:100%;
+  max-width:100%;
+  margin-top:20px;
+  font-size:1rem;
+}
+
+input[type="submit"]{
+  background-color:#1B9C85;
+  color:white;
+  width:100%;
+  font-size:1rem;
+  padding:15px;
+}
+
